@@ -2,9 +2,9 @@ body{
  font-family: 'Poppins', sans-serif;
  
 }
-
+                    /* Banner-section-start */
 .banner-section{
-  background-image: url("img/donation13.jpg");
+  background-image: url("img/donate-now.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 16%;
@@ -40,3 +40,54 @@ body{
   font-weight: bold;
 
 }
+                            /* Banner-section-finish */
+
+                            /* Donate-section-start */
+  .donate-section{
+    text-align: center;
+  }   
+  
+  .donate-main{
+    padding-top: 100px;
+    padding-left:200px ;
+    padding-right: 200px;
+  }
+
+  .donate-header{
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .donate-p{
+    font-size: 25px;
+  }
+
+  .donate-taka{
+    display: flex;
+    text-align: center;
+  }
+  
+  .taka{
+    font-size: 40px;
+    /* padding: 5px 10px; */
+    margin: 50px auto;
+  }
+
+  #default{
+    border: 3px solid #ff5959;
+    color: #ff5959;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  .input{
+    font-size: 30px;
+    border: none;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .form{
+    padding: 100px 200px;
+   
+  }
+                            /* Donate-section-finish */
