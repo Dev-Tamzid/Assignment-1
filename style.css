@@ -1,5 +1,6 @@
 body{
  font-family: 'Poppins', sans-serif;
+ padding: 0;
  
 }
                     /* Banner-section-start */
@@ -67,7 +68,6 @@ body{
   
   .taka{
     font-size: 40px;
-    /* padding: 5px 10px; */
     margin: 50px auto;
   }
 
@@ -90,3 +90,59 @@ body{
    
   }
                             /* Donate-section-finish */
+
+                            /* updates-section-start*/
+  .updates-section{
+    text-align: center;
+    padding: 100px 0;
+  }     
+  
+  .updates-section h1{
+    font-size: 60px;
+    font-weight: bold;
+  }
+
+  .updates-section p{
+    font-size: 30px;
+  }
+  .updates-form{
+  background-color: #ffeeee;
+  padding: 150px 150px;
+  max-width: 30%;
+  margin:50px auto;
+  }
+
+  .email{
+    font-size: 30px;
+    background-color: #d9d9d9;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+   
+  }
+
+  .submit-btn{
+   font-size: 30px; 
+   background-color: #ff5959;
+   color: white;
+   padding: 10px 10px;
+   border: none;
+   border-radius: 5px;
+  
+  }
+                            /* updates-section-finish */
+
+                            /* footer-section-start */
+  footer{
+    text-align: center;
+    background-color: #0b0d17;
+    padding: 50px 0;
+  }                          
+  footer h1{
+    font-family: 'Pacifico', cursive;
+    color: #ff5959;
+  }  
+  footer p{
+    color: white;
+  }                        
+                            /* footer-section-finish */
