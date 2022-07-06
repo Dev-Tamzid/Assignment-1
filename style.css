@@ -1,6 +1,7 @@
 body{
  font-family: 'Poppins', sans-serif;
  padding: 0;
+ background-color: #eaf0f0;
  
 }
                     /* Banner-section-start */
@@ -37,6 +38,7 @@ body{
   border-radius: 8px;
   padding: 10px 20px;
   font-weight: bold;
+  border: 1px solid black;
 
 }
                             /* Banner-section-finish */
@@ -44,6 +46,8 @@ body{
                      /* Donate- submit-section-start */
   .donate-section{
     text-align: center;
+    padding: 0 10% 0 10%;
+
   }   
   
   .donate-main{
@@ -83,6 +87,7 @@ body{
     border: none;
     padding-bottom: 5px;
     text-align: center;
+    background-color: #ebeeee;
   }
 
   .form{
@@ -91,7 +96,7 @@ body{
   }
                          /* Donate- submit-section-finish */
 
-                         /* donate-plan-section-start */
+                         /* Donate-plan-section-start */
   .donate-plan-section{
     text-align: center;
     padding: 100px 0;
@@ -116,8 +121,8 @@ body{
   .donate-support1{
     background-color: rgb(209, 183, 149);
     width: 430px;
-    box-shadow:10px 10px white ;
-    text-align: left;
+    box-shadow:0px 0px 10px 10px whitesmoke ;
+    text-align: center;
     padding: 30px 30px 0px 30px ;
     border: 2px solid white;
     font-size: 20px;
@@ -132,8 +137,8 @@ body{
     .donate-support2{
     background-color: rgb(161, 125, 77);
     width: 430px;
-    box-shadow:10px 10px white ;
-    text-align: left;
+   box-shadow:0px 0px 10px 10px whitesmoke ;
+    text-align:center;
    padding: 30px 30px 0px 30px ;
     border: 2px solid white;
     font-size: 20px;
@@ -148,8 +153,8 @@ body{
     .donate-support3{
     background-color: rgba(108, 123, 39, 0.765);
     width: 430px;
-    box-shadow:10px 10px white ;
-    text-align: left;
+    box-shadow:0px 0px 10px 10px whitesmoke ;
+    text-align: center;
    padding: 30px 30px 0px 30px ;
     border: 2px solid white;
     font-size: 20px;
@@ -160,17 +165,50 @@ body{
     .donate-support3 img{
       width: 20%;
     }
-                         /* donate-plan-section-finish */
+                         /* Donate-plan-section-finish */
 
-                            /* updates-section-start*/
+                         /*Extra-section-start */
+.video{
+  padding: 0 10%;
+
+}
+
+.video h1{
+  text-align: center;
+  font-size: 50px;
+}
+                         
+.video-main{
+  display: flex;
+  padding: 50px 0;
+}  
+
+.play-video{
+  width: 50%;
+  text-align: center;
+}
+
+.video-doc{
+      width: 50%;
+    font-size: 24px;
+    margin-top: -33px;
+    padding: 0 0 0 30px;
+}
+                         /*Extra-section-finish */
+
+
+                            /* Updates-section-start*/
   .updates-section{
     text-align: center;
     padding: 50px 0;
+
   }     
   
   .updates-section h1{
     font-size: 60px;
     font-weight: bold;
+    line-height: .5;
+    
   }
 
   .updates-section p{
@@ -187,23 +225,28 @@ body{
     font-size: 30px;
     background-color: #d9d9d9;
     border: none;
-    padding: 10px 10px;
+    padding: 12px 12px;
     border-radius: 5px;
+    margin-right: -3px;
+    border-radius: 8px 0 0 8px;
    
   }
 
   .submit-btn{
-   font-size: 30px; 
-   background-color: #ff5959;
-   color: white;
-   padding: 10px 10px;
-   border: none;
-   border-radius: 5px;
+    font-size: 30px;
+    background-color: #ff5959;
+    color: white;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 5px;
+    margin-left: -4px;
+    border-radius: 0 8px 8px 0;
   
   }
-                            /* updates-section-finish */
+    
+                            /* Updates-section-finish */
 
-                            /* footer-section-start */
+                            /* Footer-section-start */
   footer{
     text-align: center;
     background-color: #0b0d17;
@@ -216,4 +259,4 @@ body{
   footer p{
     color: white;
   }                        
-                            /* footer-section-finish */
+                            /* Footer-section-finish */
